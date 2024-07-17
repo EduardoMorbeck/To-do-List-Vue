@@ -23,6 +23,7 @@ new Vue ({
             this.todos = this.todos.filter(el => el.text !== todo.text);
         },
         sortTodos(){
+            this.todos.sort((a, b) => a.text.localeCompare(b.text));
             this.todos.sort((a,b) => a.done - b.done);
         },
         isValidInput(){
