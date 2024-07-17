@@ -2,11 +2,7 @@ new Vue ({
     el: "#app",
     data: {
         currentTodo: "",
-        todos: [
-            {text: 'Learn Vue', done: false},
-            {text: 'Understand Vue', done: false},
-            {text: 'Practice Vue', done: false}
-        ]
+        todos: []
     },
     methods: {
         addTodo() {
@@ -27,7 +23,7 @@ new Vue ({
             this.todos = this.todos.filter(el => el.text !== todo.text);
         },
         sortTodos(){
-            this.todos.sort((a,b) => a.done - b.done)
+            this.todos.sort((a,b) => a.done - b.done);
         },
         isValidInput(){
             return !(!this.currentTodo.trim() ||
