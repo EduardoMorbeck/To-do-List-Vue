@@ -115,14 +115,15 @@ i{
     button{
         font-size: 0.5em;
     }
-    #inputTarefa{
-        font-size: 0.8em;
-    }
+
 }
 
 @media screen and (max-width: 370px) {
     button{
         font-size: 0.2em;
+    }
+    #inputTarefa{
+        font-size: 0.8em;
     }
 }
 
