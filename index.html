@@ -10,10 +10,10 @@
 <body>
     <main id="app">
         <header>
-            <h2>Vue.js Todo List</h2>
+            <h1>Lista de Tarefas</h1>
             <form>
-                <input type="text" v-model="currentTodo" placeholder="Descrição" maxlength="500">
-                <button @click.prevent="addTodo()">+</button>
+                <input type="text" v-model="currentTodo" placeholder="Digite uma tarefa..." maxlength="500">
+                <button @click.prevent="addTodo()">Adicionar</button>
             </form>
         </header>
 
