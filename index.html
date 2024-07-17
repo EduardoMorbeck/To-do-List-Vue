@@ -12,7 +12,7 @@
         <header>
             <h1>Lista de Tarefas</h1>
             <form>
-                <input type="text" v-model="currentTodo" placeholder="Digite uma tarefa..." maxlength="500">
+                <input id="inputTarefa" type="text" v-model="currentTodo" placeholder="Digite uma tarefa..." maxlength="500">
                 <button @click.prevent="addTodo()">Adicionar</button>
             </form>
         </header>

@@ -59,7 +59,7 @@ button {
     cursor: pointer;
 }
 
-input{
+#inputTarefa{
     width: 80%;
 }
 
@@ -116,14 +116,14 @@ i{
         font-size: 0.9em;
     }
     button{
-        font-size: 0.5em;
+        font-size: 0.5;
     }
 }
 
 @media screen and (min-width: 1000px) {
 
     input[type=text] {
-        width: 70%;
+        width: 35%;
     }
 
     body {
